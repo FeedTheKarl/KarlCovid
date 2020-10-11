@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="khei903.css">
+    <title>NZ COVID-19 Dashboard</title>
+    <link rel="icon" href="">
+    <script src="khei903.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>NZ COVID-19 Dashboard (Unofficial)</h1>
+
+            <table class = "center">
+                <tr>
+                    <th id="Home" onclick="clicked('Home');">&#128106 Home</th>
+                    <th id="Total" onclick="clicked('Total'); grabTotal();">&#128200 Totals Graph</th>
+                    <th id="Daily" onclick="clicked('Daily'); grabDaily();">&#128202 Daily Case Graph</th>
+                    <th id="Active" onclick="clicked('Active'); grabActive();">&#128201 Active Case Graph</th>
+                    <th id="Data" onclick="clicked('Data'); grabData2();">&#128203 Data</th>
+                </tr>
+            </table>
+        </nav> 
+    </header>
+    <section>
+
+        <article id="HomePage">
+        </article>
+
+        <article id="TotalPage">
+        </article>
+
+        <article id="DailyPage">
+        </article>
+
+        <article id="ActivePage">
+        </article>
+
+        <article id="DataPage">
+        </article>
+
+    </section>
+</body>
+</html>
